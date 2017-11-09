@@ -1,0 +1,76 @@
+.center {
+    text-align: center;
+}
+.right{
+    text-align: left;
+}
+.left {
+    text-align: right;
+}
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 0;
+}
+.top > div:not(.center) {
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 0 2em;
+}
+.top-icon {
+    width: 15em;
+    border-radius: 100%;
+}
+.top {
+    padding: 1em 0;
+}
+.top .center {
+    order: -1;
+    min-width: 95vw;
+    min-width: 99vw;
+    flex: 2;
+}
+@media screen and (max-width: 70em) {
+    .top > div:not(.center) {
+        padding: 0 .5em;
+    }
+}
+.page {
+    display: flex;
+    align-items: center;
+}
+/* 控えめに言って地獄 */
+@media screen and (min-width: 40em) {
+    .left ul{
+        transform: scale(-1, 1);
+        text-align: left;
+    }
+    .left ul li>*{
+        display: inline-block;
+        transform: scale(-1, 1);
+    }
+    .top {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 40em) {
+    .top > div {
+        min-width: 90vw;
+    }
+    .top .left {
+        text-align: left;
+    }
+    .top .right {
+        order: -1;
+    }
+    .top > div{
+        padding-right: 0 !important;
+    }
+}
+.page {
+    min-height: 100vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
