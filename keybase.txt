@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/rinsuki
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://rinsuki.github.io
+  * I am rinsuki (https://keybase.io/rinsuki) on keybase.
+  * I have a public key ASDtjJ2HKhFIWATNdcohMhmmsitWx7giH8Dk3oUfqoSW1Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cb2704ef8c594cd31a1e678cb20c01810d1294ba1dceedd7433a94551d6238ab0a",
+      "host": "keybase.io",
+      "kid": "0120ed8c9d872a11485804cd75ca213219a6b22b56c7b8221fc0e4de851faa8496d40a",
+      "uid": "4df538ae4fda39ed8953ec27b2d1b219",
+      "username": "rinsuki"
+    },
+    "merkle_root": {
+      "ctime": 1514622510,
+      "hash": "f9cfd5418f468b1aeeec16fee287b5eaeb93cbf0a9d79f702e31f28bf4ef4ec6b231006d5e51ce3c52571e540c193a196e92fbc510bd7b7e8fdd0da0cd640b6e",
+      "hash_meta": "149252199a306502c2fc8e9a1c1653603b7e1cf27f6a94daa3bd3c39a011a998",
+      "seqno": 1869702
+    },
+    "service": {
+      "hostname": "rinsuki.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.38"
+  },
+  "ctime": 1514622620,
+  "expire_in": 504576000,
+  "prev": "d5cc770082be2fe04512159a4524e80ed97d47e41e80a921184b8f5143b896a1",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7YydhyoRSFgEzXXKITIZprIrVse4Ih/A5N6FH6qEltQKp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwY2IyNzA0ZWY4YzU5NGNkMzFhMWU2NzhjYjIwYzAxODEwZDEyOTRiYTFkY2VlZGQ3NDMzYTk0NTUxZDYyMzhhYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZWQ4YzlkODcyYTExNDg1ODA0Y2Q3NWNhMjEzMjE5YTZiMjJiNTZjN2I4MjIxZmMwZTRkZTg1MWZhYTg0OTZkNDBhIiwidWlkIjoiNGRmNTM4YWU0ZmRhMzllZDg5NTNlYzI3YjJkMWIyMTkiLCJ1c2VybmFtZSI6InJpbnN1a2kifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MTQ2MjI1MTAsImhhc2giOiJmOWNmZDU0MThmNDY4YjFhZWVlYzE2ZmVlMjg3YjVlYWViOTNjYmYwYTlkNzlmNzAyZTMxZjI4YmY0ZWY0ZWM2YjIzMTAwNmQ1ZTUxY2UzYzUyNTcxZTU0MGMxOTNhMTk2ZTkyZmJjNTEwYmQ3YjdlOGZkZDBkYTBjZDY0MGI2ZSIsImhhc2hfbWV0YSI6IjE0OTI1MjE5OWEzMDY1MDJjMmZjOGU5YTFjMTY1MzYwM2I3ZTFjZjI3ZjZhOTRkYWEzYmQzYzM5YTAxMWE5OTgiLCJzZXFubyI6MTg2OTcwMn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJyaW5zdWtpLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM4In0sImN0aW1lIjoxNTE0NjIyNjIwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImQ1Y2M3NzAwODJiZTJmZTA0NTEyMTU5YTQ1MjRlODBlZDk3ZDQ3ZTQxZTgwYTkyMTE4NGI4ZjUxNDNiODk2YTEiLCJzZXFubyI6MTcsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAG7b5AgBpeS5ZHCRbe5J1XB+xf+EQImVOE7oLsoWNcId/eDGvrfup3p3+nv2RwlN3VWwrOAM3ZdRxqnGGCsffB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMCHU8uk5F7JK/dQU9vw3wiBSdRdUNmqM5Y4W9F9iJp+o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rinsuki
+
+==================================================================
