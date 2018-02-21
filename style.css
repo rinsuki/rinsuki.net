@@ -1,76 +1,67 @@
-.center {
-    text-align: center;
-}
-.right{
-    text-align: left;
-}
-.left {
-    text-align: right;
-}
-.top {
+body {
     display: flex;
-    flex-wrap: wrap;
-    margin: auto 0;
-}
-.top > div:not(.center) {
-    flex: 1;
-    flex-wrap: wrap;
-    padding: 0 2em;
-}
-.top-icon {
-    width: 15em;
-    border-radius: 100%;
-}
-.top {
-    padding: 1em 0;
-}
-.top .center {
-    order: -1;
-    min-width: 95vw;
-    min-width: 99vw;
-    flex: 2;
-}
-@media screen and (max-width: 70em) {
-    .top > div:not(.center) {
-        padding: 0 .5em;
-    }
-}
-.page {
-    display: flex;
+    justify-content: center;
     align-items: center;
 }
-/* 控えめに言って地獄 */
-@media screen and (min-width: 40em) {
-    .left ul{
-        transform: scale(-1, 1);
-        text-align: left;
-    }
-    .left ul li>*{
-        display: inline-block;
-        transform: scale(-1, 1);
-    }
-    .top {
-        width: 100%;
+
+
+main {
+    width: 80vw;
+    max-width: 1000px;
+    margin: 3em 0;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 95vw;
+        margin: 0;
     }
 }
-@media screen and (max-width: 40em) {
-    .top > div {
-        min-width: 90vw;
+
+.flex {
+    flex:1;
+}
+
+section {
+    padding: 1em 0;
+}
+
+/* top */
+
+.top-icon-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-icon {
+    display: block;
+    width: 50vmin;
+    height: 50vmin;
+    border-radius: 50vmin;
+    max-width: 12em;
+    max-height: 12em;
+}
+
+section.top {
+    display:flex;
+}
+
+@media screen and (max-width: 480px) {
+    section.top {
+        display: inherit;
     }
-    .top .left {
-        text-align: left;
+    .top-icon {
+        width: 7.5em;
+        height: 7.5em;
     }
-    .top .right {
-        order: -1;
+    .top-icon-container {
+        padding: 1em 0;
     }
-    .top > div{
-        padding-right: 0 !important;
+    .top h1 {
+        text-align: center;
     }
 }
-.page {
-    min-height: 100vh;
-}
-body {
-    margin: 0;
-    padding: 0;
+
+#works .card {
+    margin: 1em;
 }

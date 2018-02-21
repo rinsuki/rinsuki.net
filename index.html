@@ -3,38 +3,54 @@
     <head>
         <meta charset="UTF-8">
         <title>rinsuki.github.io</title>
+        <link rel="stylesheet" href="libs/bs4.0.0/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width">
+        <!-- Hi source code watcher! this site git repository is here -> https://github.com/rinsuki/rinsuki.github.io -->
     </head>
     <body>
-        <div class="page">
-            <div class="top">
-                <div class="center">
-                    <img class="top-icon" src="https://avatars0.githubusercontent.com/u/6533808">
-                    <h1>rinsuki.github.io</h1>
-                    <p>仮
+        <main>
+            <section class="top">
+                <div class="flex top-icon-container">
+                    <img class="top-icon" src="avatar.png">
                 </div>
-                <div class="left">
-                    <h2>Works</h2>
+                <div class="flex">
+                    <h1>りんすき / rinsuki<span style="font-size: 50%;">.net</span></h1>
                     <ul>
-                        <li><span><a href="https://cinderella-project.github.io/iMast/">iMast</a> - Mastodon Client for iOS</span>
-                        <li><span><a href="https://quesdon.rinsuki.tk">Quesdon</a> - ask.fmとかそういうやつのMastodon版</span>
+                        <li><a href="https://mstdn.maud.io/@rinsuki">Mastodon <small>@rinsuki@mstdn.maud.io</small></a></li>
+                        <li><a href="https://twitter.com/428rinsuki">Twitter <small>@428rinsuki</small></a></li>
+                        <li><a href="https://github.com/rinsuki">GitHub <small>@rinsuki</small></a></li>
+                        <li><a href="https://keybase.io/@rinsuki">Keybase <small>@rinsuki</small></a></li>
+                        <li><a href="mailto:rinsuki@rinsuki.net">メール <small>rinsuki@rinsuki.net</small></a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#works">作成物</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="http://rinsuki.hatenablog.jp/">ブログ</a></li>
                     </ul>
                 </div>
-                <div class="right">
-                    <h2>Accounts</h2>
-                    <ul>
-                        <li><a href="https://mstdn.maud.io/@rinsuki">Mastodon @rinsuki@mstdn.maud.io</a>
-                        <li><a href="https://mstdn.nere9.help/@rinsuki">Mastodon @rinsuki@mstdn.nere9.help</a>
-                        <li><a href="https://twitter.com/428rinsuki">Twitter @428rinsuki</a>
-                        <li><a href="https://github.com/rinsuki">GitHub @rinsuki</a>
-                        <li><a href="https://keybase.io/rinsuki">Keybase @rinsuki</a>
-                        <li><a href="https://greasyfork.org/ja/users/163419-rinsuki">Greasyfork (UserScript投稿サイト)</a>
-                        <li><a href="http://rinsuki.hatenablog.jp/">はてなブログ</a>
-                        <li>Monacoin: MEQnGMoZ772nfGNHpnfmrK9ify8KSRo5tJ <a href="monacoin:MEQnGMoZ772nfGNHpnfmrK9ify8KSRo5tJ">Donate</a>
-                    </ul>
+            </section>
+            <section id="works">
+                <h2>作成物</h2>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">iMast</h5>
+                        <p class="card-text">iOS デバイス向けに開発された Mastodon クライアント</p>
+                        <a href="https://itunes.apple.com/jp/app/imast/id1229461703?mt=8" class="card-link">App Store</a>
+                        <a href="https://github.com/cinderella-project/iMast" class="card-link">GitHub</a>
+                    </div>
                 </div>
-            </div>
-        </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Quesdon</h5>
+                        <p class="card-text">Mastodon のアカウントで匿名ユーザーからの質問を受け付けられる Web サービス</p>
+                        <a href="https://quesdon.rinsuki.net" class="card-link">見に行く</a>
+                        <a href="https://github.com/rinsuki/quesdon" class="card-link">GitHub</a>
+                    </div>
+                </div>
+                <p>上記以外にも、<a href="https://greasyfork.org/ja/users/163419-rinsuki">Greasyfork</a>でちょっとしたUserScriptを公開していたり、<a href="https://github.com/rinsuki">GitHub</a>で形になったりなっていなかったりする物を公開しています。</p>
+            </section>
+        </main>
     </body>
 </html>
