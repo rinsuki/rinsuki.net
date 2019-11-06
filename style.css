@@ -34,6 +34,10 @@ section {
     flex:1;
 }
 
+:root {
+    --hn-before-display: block;
+}
+
 @media screen and (max-width: 720px) {
     main {
         width: 95vw;
@@ -44,6 +48,9 @@ section {
     }
     .top-icon {
         margin: 2em 0;
+    }
+    :root {
+        --hn-before-display: none;
     }
 }
 
@@ -60,7 +67,8 @@ h3 {
 }
 
 h2::before {
-    display: block;
+    display: none;
+    display: var(--hn-before-display);
     float: left;
     width: 10rem;
     margin-left: -10rem;
@@ -71,7 +79,8 @@ h2::before {
 }
 
 h3::before {
-    display: block;
+    display: none;
+    display: var(--hn-before-display);
     float: left;
     width: 10rem;
     margin-left: -10rem;
