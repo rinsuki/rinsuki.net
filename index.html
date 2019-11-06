@@ -5,70 +5,108 @@
         <title>rinsuki.net</title>
         <link rel="stylesheet" href="libs/bs4.0.0/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=720">
         <!-- source code: https://github.com/rinsuki/rinsuki.net -->
     </head>
     <body>
         <main>
-            <section class="top">
-                <div class="flex top-icon-container">
+            <section id="top">
+                <div class="flex-container mb-4" style="align-items: center;">
                     <img class="top-icon" src="avatar.png">
+                    <div class="flex">
+                        <h1>
+                            りんすき
+                            / rinsuki
+                            <span style="font-size: 50%;">.net</span>
+                        </h1>
+                        <p>Web 周りでワイワイしているプログラマ。<br>渋谷凛が大好き。</p>
+                    </div>
                 </div>
-                <div class="flex">
-                    <h1>りんすき / rinsuki<span style="font-size: 50%;">.net</span></h1>
-                    <p>Web 周りでワイワイしているプログラマ。<br>渋谷凛が大好き。</p>
-                    <ul>
-                        <li><a href="https://mstdn.rinsuki.net/@rinsuki">Mastodon <small>@rinsuki@mstdn.rinsuki.net</small></a></li>
-                        <li><a href="https://mstdn.maud.io/@rinsuki">Mastodon <small>@rinsuki@mstdn.maud.io</small></a></li>
-                        <li><a href="https://twitter.com/428rinsuki">Twitter <small>@428rinsuki</small></a></li>
-                        <li><a href="https://github.com/rinsuki">GitHub <small>@rinsuki</small></a></li>
-                        <li><a href="https://keybase.io/rinsuki">Keybase <small>@rinsuki</small></a></li>
-                        <li><a href="mailto:rinsuki@rinsuki.net">メール <small>rinsuki@rinsuki.net</small></a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="#works">主な作成物</a></li>
-                        <li><a href="#contact">連絡先</a></li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="https://blog.rinsuki.net">ブログ</a>
-                            <small><a href="http://rinsuki.hatenablog.jp/">(古い方はこちら)</a></small>
-                        </li>
-                    </ul>
-                </div>
+            </section>
+            <section id="accounts">
+                <h2>SNSとかのアカウント</h2>
+                <ul>
+                    <li><a href="https://mstdn.rinsuki.net/@rinsuki">Mastodon <small>@rinsuki@mstdn.rinsuki.net</small></a></li>
+                    <li><a href="https://mstdn.otyakai.xyz/@rinsuki">Mastodon <small>@rinsuki@mstdn.otyakai.xyz</small></a></li>
+                    <li><a href="https://fedibird.com/@rinsuki">Mastodon <small>@rinsuki@fedibird.com</small></a></li>
+                    <li><a href="https://twitter.com/428rinsuki">Twitter <small>@428rinsuki</small></a></li>
+                    <li><a href="https://github.com/rinsuki">GitHub <small>@rinsuki</small></a></li>
+                    <li><a href="https://keybase.io/rinsuki">Keybase <small>@rinsuki</small></a></li>
+                    <li><a href="mailto:rinsuki@rinsuki.net">メール <small>rinsuki@rinsuki.net</small></a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="https://blog.rinsuki.net">ブログ</a>
+                    </li>
+                    <li>
+                        <a href="https://rinsuki.hatenablog.jp">ブログ (サブ)</a>
+                    </li>
+                </ul>
             </section>
             <section id="works">
                 <h2>主な作成物</h2>
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">
-                            iMast
-                            <small class="ml-2 text-muted">2017/08/10〜</small>
-                        </h5>
-                        <p class="card-text">一画面に表示できる発言数が多いのが特徴の、iOS 用非公式 Mastodon クライアント。</p>
-                        <a href="https://itunes.apple.com/jp/app/imast/id1229461703?mt=8" class="card-link">App Store</a>
-                        <a href="https://github.com/cinderella-project/iMast" class="card-link">GitHub</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body">
-                            <h5 class="card-title">
-                                Quesdon
-                                <small class="ml-2 text-muted">2017/12/09〜2019/04/30</small>
-                            </h5>
-                        <p class="card-text">
-                            Mastodon のアカウントで匿名ユーザーからの質問を受け付けられる Web サービス。
-                            <br>
-                            <small>
-                                掲載メディア: 
-                                <a href="http://www.itmedia.co.jp/news/articles/1712/11/news093.html">マストドンで気軽にインタビューできる「Quesdon」始まる - ITmedia NEWS</a>
-                            </small>
-                        </p>
-                        <a href="https://quesdon.rinsuki.net" class="card-link">見に行く(跡地)</a>
-                        <a href="https://github.com/rinsuki/quesdon" class="card-link">GitHub</a>
-                    </div>
-                </div>
-                <p>上記以外にも、<a href="https://greasyfork.org/ja/users/163419-rinsuki">Greasy Fork</a>でちょっとしたUserScriptを公開していたり、<a href="https://github.com/rinsuki">GitHub</a>で形になったりなっていなかったりする物を公開しています。</p>
+                <p>特に記載がなければプロジェクト名はGitHubリポジトリへのリンク。</p>
+                <h3 id="works-native-app">ネイティブアプリ:</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/cinderella-project/iMast">iMast</a>
+                        : シンプルで軽量なiOS用Mastodonクライアント。
+                        <ul>
+                            <li><a href="https://apps.apple.com/jp/app/imast/id1229461703">App Store</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3 id="works-web-service">Webサービスとかそういうやつ:</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/rinsuki/sea">Sea</a>
+                        : 人数の多くない身内コミュニティ向けのチャット(っぽいSNS)。
+                        <ul>
+                            <li>ここでは最小限のWebUIとAPIだけを提供していて、実際に機能を利用するためにはクライアントを利用する必要がある</li>
+                            <li>完全招待制でコミュニティにつき一個建てる感じなのでデモサーバーはなし</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3 id="works-cli">コマンドラインでなんかするやつ:</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/rinsuki/tootcmd">tootcmd</a>
+                        : ターミナルからMastodonに投稿するやつ。
+                        <ul>
+                            <li>スクリプトの進捗をMastodonに流したかったので</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3 id="works-library">ライブラリ:</h3>
+                <ul>
+                    <li>
+                        <a href="https://github.com/rinsuki/itunes-nowplaying-mac">itunes-nowplaying-mac</a>
+                        : macOS上のNode.js(Electron含む)からiTunesの再生情報を取得するやつ。
+                    </li>
+                    <li>
+                        <a href="https://github.com/rinsuki/EurekaFormBuilder">EurekaFormBuilder</a>
+                        : <a href="https://github.com/xmartlabs/Eureka">Eureka</a>というiOS向けフォーム構築ライブラリの上に乗っかる、フォームをDSLっぽく定義できるようにしたやつ。
+                    </li>
+                </ul>
+                <details>
+                    <summary>(たぶん)もう手を付ける気がないやつ (クリックで開閉)</summary>
+                    <h4>Webサービス:</h4>
+                    <ul>
+                        <li>
+                            <a href="https://github.com/rinsuki/quesdon">Quesdon</a>: Mastodonアカウントでask.fmとか質問箱とかそういう感じのをやるやつ
+                            <ul>
+                                <li><a href="https://quesdon.rinsuki.net">跡地</a></li>
+                                <li>掲載メディア: 
+                                    <a href="http://www.itmedia.co.jp/news/articles/1712/11/news093.html">マストドンで気軽にインタビューできる「Quesdon」始まる - ITmedia NEWS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://github.com/rinsuki/p2p-chat">p2p-chat</a>: WebRTCを使って、P2Pフルメッシュネットワークを構築してその上でチャットをするサービス
+                        </li>
+                    </ul>
+                </details>
+                <p class="mt-4">上記以外にも、<a href="https://greasyfork.org/ja/users/163419-rinsuki">Greasy Fork</a>でちょっとしたUserScriptを公開していたり、<a href="https://github.com/rinsuki">GitHub</a>で形になったりなっていなかったりする物を公開しています。</p>
             </section>
             <section id="contact">
                 <h2>連絡先</h2>
