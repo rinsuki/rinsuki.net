@@ -1,91 +1,82 @@
+html {
+    background: #eee;
+}
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: #fff;
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 2em 5em;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
 }
 
-
-main {
-    width: 80vw;
-    max-width: 1000px;
-    margin: 3em 0;
+table, th, td {
+    border: 1px solid #888;
+    border-collapse: collapse;
 }
 
-
-section {
-    padding: 1em 0;
+th, td {
+    padding: .5em;
 }
 
-/* top */
-
-.top-icon {
-    width: 9em;
-    height: 9em;
-    border-radius: 9em;
-
-    margin-right: 2em;
-}
-
-.flex-container {
-    display: flex;
-}
-
-.flex {
-    flex:1;
-}
-
-:root {
-    --hn-before-display: block;
-}
-
-@media screen and (max-width: 720px) {
-    main {
-        width: 95vw;
-        margin: 0;
-    }
-    #top .flex-container {
-        flex-direction: column;
-    }
-    .top-icon {
-        margin: 2em 0;
-    }
-    :root {
-        --hn-before-display: none;
-    }
-}
-
-#works .card {
-    margin: 1em;
-}
-
-p:last-child {
-    margin-block-end: 0;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-h2::before {
-    display: none;
-    display: var(--hn-before-display);
-    float: left;
-    width: 10rem;
-    margin-left: -10rem;
+td:first-child {
     text-align: right;
-    padding-right: 0.75rem;
-    content: "##";
-    opacity: 0.5;
+    padding-left: 1em;
+}
+td ul {
+    margin: 0;
+    padding-left: 20px;
 }
 
-h3::before {
-    display: none;
-    display: var(--hn-before-display);
-    float: left;
-    width: 10rem;
-    margin-left: -10rem;
-    text-align: right;
-    padding-right: 0.75rem;
-    content: "###";
-    opacity: 0.3;
+.info-in-header {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd > p:first-child {
+    margin-top: 0.5em;
+}
+
+@media screen and (max-width: 40em) {
+    body {
+        padding: 1em;
+    }
+
+    dd {
+        margin-left: 1em;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        background: #333;
+    }
+
+    table, th, td {
+        border-color: #555;
+    }
+    
+
+    body {
+        background: #111;
+        color: #eee;
+        box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.4);
+    }
+
+    a:not(:visited) {
+        color: #47f;
+    }
+
+    a:visited {
+        color: #95c;
+    }
 }
