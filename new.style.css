@@ -34,14 +34,26 @@ td ul {
     font-weight: normal;
 }
 
+.table-wrapper {
+    overflow-x: auto;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd > p:first-child {
+    margin-top: 0.5em;
+}
+
 @media screen and (max-width: 40em) {
     body {
         padding: 1em;
     }
-}
 
-.table-wrapper {
-    overflow-x: auto;
+    dd {
+        margin-left: 1em;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
