@@ -1,3 +1,16 @@
+html {
+    background: #eee;
+}
+
+body {
+    background: #fff;
+    max-width: 50em;
+    margin: 0 auto;
+    padding: 2em 5em;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+    font-family: sans-serif;
+}
+
 table, th, td {
     border: 1px solid #888;
     border-collapse: collapse;
@@ -14,18 +27,6 @@ td:first-child {
 td ul {
     margin: 0;
     padding-left: 20px;
-}
-
-html {
-    background: #eee;
-}
-
-body {
-    background: #fff;
-    max-width: 50em;
-    margin: 0 auto;
-    padding: 2em 5em;
-    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 40em) {
