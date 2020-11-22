@@ -9,6 +9,7 @@ body {
     padding: 2em 5em;
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
     font-family: sans-serif;
+    min-height: calc(100vh - 4em);
 }
 
 table, th, td {
