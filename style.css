@@ -101,3 +101,7 @@ dd > p:first-child {
         transform: scale(1, 1);
     }
 }
+
+del a {
+    filter: grayscale(1);
+}
