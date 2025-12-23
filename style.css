@@ -38,6 +38,9 @@ td ul {
 .table-wrapper {
     overflow-x: auto;
 }
+.table-wrapper table tr > *:first-child {
+    white-space: nowrap;
+}
 
 dt {
     font-weight: bold;
@@ -105,3 +108,4 @@ dd > p:first-child {
 del a {
     filter: grayscale(1);
 }
+
